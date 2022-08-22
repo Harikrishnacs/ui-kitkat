@@ -1,0 +1,129 @@
+.travel-banner {
+  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660748019/Bg_Gold_n22c3g.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.travel-banner h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-left: 20px;
+
+}
+
+.pos-details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.pos-details h1 {
+
+  font-size: 30px;
+}
+
+.pos-details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.pos-img {
+  width: 45%;
+  margin-right: 5%;
+  height: 100%;
+
+}
+
+.pos-img img {
+  height: 50%;
+  width: 100%;
+}
+
+
+
+.pos_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.pos_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.pos_p {
+  font-family: 'EB Garamond', serif;
+}
+
+.pos_title {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+}
+
+.cont_para_style {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+
+
+
+
+
+.img_prod {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+/* mediaquery */
+@media screen and (max-width: 960px) {
+  .pos-banner h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 20px;
+
+  }
+
+  .pos_cont {
+    width: 90%;
+  }
+
+  .img_prod {
+    width: 100%
+  }
+}

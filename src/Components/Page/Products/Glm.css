@@ -1,0 +1,84 @@
+.glm_banner {
+  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660748019/Bg_Gold_n22c3g.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.glm_banner h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-left: 20px;
+
+}
+
+.glm_lists {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.glm_cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.glm_img1 img {
+  height: 40%;
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.glm_p {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.glmr_p ul {
+
+  list-style-image: url(https://www.kitkatsoftwaretechnologies.com/css/images/arrow_blue.png);
+  font-size: 18px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .glm_img {
+    width: 100%;
+
+  }
+
+  .title2 {
+    font-size: 20px;
+  }
+
+  .glm_img1 img {
+    height: 50%;
+    width: 100%;
+    /* text-align: center; */
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+  }
+
+  .glm_cont {
+    width: 90%
+  }
+
+  .glm_banner h1 {
+    font-size: 80px;
+  }
+}

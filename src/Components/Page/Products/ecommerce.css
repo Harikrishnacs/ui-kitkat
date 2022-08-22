@@ -1,0 +1,120 @@
+.ecom_banner {
+  background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660197726/eCommerce-Retail_gq6w1y.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.ecom_banner h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-left: 20px;
+
+}
+
+.ecom {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  display: flex;
+}
+
+.ecom_details {
+  width: 50%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.ecom_details h1 {
+
+  font-size: 30px;
+}
+
+.ecom_details p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.ecom_img {
+  width: 45%;
+  margin-right: 5%;
+  height: 100%;
+
+}
+
+.ecom_img img {
+  height: 50%;
+  width: 100%;
+}
+
+.noimg {
+  display: block;
+}
+
+.ecom_list {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  text-indent: 30px;
+}
+
+.img1 {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .ecom_banner h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-left: 20px;
+  }
+
+  .img1 {
+    display: block;
+  }
+
+  .ecom {
+
+    flex-direction: column;
+  }
+
+  .ecom_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .noimg {
+    display: none;
+  }
+
+  .ecom_details {
+    width: 100%;
+  }
+
+  .ecom_list {
+    width: 80%;
+
+  }
+}

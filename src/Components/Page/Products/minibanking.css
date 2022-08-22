@@ -1,0 +1,24 @@
+.minibank_banner {
+    background: url("https://res.cloudinary.com/denokpulg/image/upload/v1660747629/banking-and-financial-bg_1_eigo80.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.minibank_banner h1 {
+    color: #fff;
+    font-size: 120px;
+    margin-left: 20px;
+
+}
+
+
+.banking {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

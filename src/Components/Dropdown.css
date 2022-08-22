@@ -1,0 +1,457 @@
+.dropdown-menu {
+  background: red;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  z-index: 10;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-menu li {
+  background: #1888ff;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #5cabff;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+
+@media screen and (max-width: 1350px) {
+  .Container1 {
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+  }
+
+
+
+  .hr-content {
+    width: 400px;
+  }
+
+  .hr-img img {
+    width: 450px;
+  }
+
+  .hr-content h2 {
+    font-size: 80px;
+  }
+
+  .hr-content h1 {
+    font-size: 30px;
+  }
+
+  .hr-content p {
+    color: #535353;
+    font-size: 20px;
+  }
+
+  /* banner */
+  .img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Container1 {
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+  }
+
+  .dropdown-menu.clicked {
+    display: block;
+  }
+
+  .nav-item {
+    display: block;
+    align-items: center;
+    height: auto;
+  }
+
+  .dropdown-menu {
+    background: red;
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 10;
+    list-style: none;
+    text-align: start;
+  }
+
+  .hr-content {
+    width: 400px;
+  }
+
+  .hr-img {
+    margin: 5px;
+  }
+
+  .hr-img img {
+    width: 300px;
+    margin: 5px;
+  }
+
+  .hr-content span {
+    margin: 10px;
+    font-size: 5px;
+  }
+
+  .hr-content h2 {
+    font-size: 60px;
+  }
+
+  .hr-content h1 {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .hr-content button {
+    width: 90px;
+    padding: 6px 10px;
+    font-weight: 300;
+    font-size: 10px;
+    margin: 10px;
+  }
+
+  .hr-content p {
+    color: #535353;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .card {
+    width: 40%;
+    border: #fffdfd 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  /* banner */
+  .img {
+    width: 400px;
+  }
+
+  .Container_banner {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .customer-content h3 {
+    font-size: 25px;
+  }
+
+  .customer-content p {
+    font-size: 12px;
+  }
+
+  .default-btn,
+  .optional-btn {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .col-lg-6 img {
+    width: 350px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 35px;
+    color: #212121;
+    margin: 10px 0 15px;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Container1 {
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+  }
+
+  .Container_banner .col-lg-4 {
+    width: 100%;
+  }
+
+  .hr-content {
+    width: 100%;
+  }
+
+  .hr-img {
+    margin: 5px;
+    width: 100%;
+  }
+
+  .hr-img img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 500px;
+
+  }
+
+  .hr-content span {
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .hr-content h2 {
+    font-size: 60px;
+  }
+
+  .hr-content h1 {
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .hr-content button {
+    width: 90px;
+    padding: 6px 10px;
+    font-weight: 300;
+    font-size: 10px;
+    margin: 10px;
+  }
+
+  .hr-content p {
+    color: #535353;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .career_banner h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+
+  .about_banner h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+
+  .card {
+    width: 100%;
+    border: #fffdfd 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+  }
+
+  .col-lg-6 {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .col-lg-6 img {
+    float: none;
+  }
+
+  .bar {
+    height: 4px;
+    width: 300px;
+    background: #086ad8;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hr-img img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 300px;
+
+  }
+
+  .hr-content h2 {
+    font-size: 40px;
+
+  }
+
+  .hr-content h1 {
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .hr-content span {
+    margin: 5px;
+    font-size: 4px;
+  }
+
+  /* banner2 */
+
+}
+
+/* contact us
+ */
+@media screen and (max-width: 1350px) {
+  .map iframe {
+    width: 100%;
+    border-radius: 15px;
+    position: center;
+  }
+
+  .contact-main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .map {
+    width: 450px;
+  }
+
+  .detail-form {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .map iframe {
+    width: 100%;
+    border-radius: 15px;
+    position: center;
+  }
+
+  .map {
+    width: 350px;
+  }
+
+  .detail-form {
+    width: 350px;
+  }
+}
+
+
+
+
+
+/* career
+ */
+@media screen and (max-width: 1350px) {
+  .software_img img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .banner2-details span {
+    width: 630px;
+
+    margin: 10px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #797979;
+    font-weight: 500;
+    opacity: .7;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .software_img img {
+    width: 180px;
+    height: 150px;
+  }
+
+  .banner2-details span {
+    width: 500px;
+  }
+
+  .career_banner h1 {
+    color: #fff;
+    font-size: 80px;
+  }
+
+  .about_banner h1 {
+    color: #fff;
+    font-size: 80px;
+  }
+
+  .about-details {
+    width: 90%;
+
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .software_img img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .about-who h3,
+  h4 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .software_img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hiring-sec {
+    width: 70%;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px auto;
+    display: flex;
+  }
+
+  .develop {
+    color: #d1192c;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+
+
+  }
+
+  .loc-develop {
+    margin: 20px;
+  }
+
+  .about-who h3,
+  h4 {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .banner2-details span {
+    width: 400px;
+  }
+}
